@@ -13,11 +13,10 @@ export default function Header() {
                 {location.pathname !== "/" && (
                     <i
                         className="ri-arrow-go-back-fill cursor-pointer text-center align-middle text-xl"
-                        onClick={backToDashboard}
-                    ></i>
+                        onClick={backToDashboard}></i>
                 )}
             </div>
-            <h1>QUESTIONARE</h1>
+            <h1 className="text-2xl">QUESTIONARE</h1>
             <a className="cursor-pointer">
                 <img
                     src="http://cham.archivemodel.cn/static/logo2D-high.PNG"
