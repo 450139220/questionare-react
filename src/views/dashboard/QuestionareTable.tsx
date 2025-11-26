@@ -10,11 +10,11 @@ interface TableBody {
 
 export default function QuestionareTable() {
     const tableHead: string[] = [
-        "created at",
-        "title",
-        "question count",
-        "updated at",
-        "operations",
+        "Created at",
+        "Title",
+        "Question count",
+        "Updated at",
+        "Operations",
     ];
 
     const testTableBody: TableBody = {

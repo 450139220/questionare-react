@@ -1,3 +1,3 @@
 export default function Market() {
-    return <div>market</div>;
+  return <div>Market</div>;
 }
